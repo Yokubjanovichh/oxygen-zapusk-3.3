@@ -20,7 +20,7 @@ html {
 .wrapper {
   max-width: 44rem;
   width: 100%;
-  min-height: 95.6rem;
+  min-height: 100vh;
   background-color: white;
   background-image: url(../assets/img/mainBg.webp);
   background-position: center;
@@ -28,6 +28,12 @@ html {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    min-height: 95.6rem;
+  }
 }
 
 .navbar {
