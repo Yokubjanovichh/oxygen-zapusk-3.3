@@ -97,9 +97,6 @@ export default function Home() {
             60 oyga Foizlarsiz bo’lib to’lash taklifi bilan
           </p>
           <p className={styles.footerTitile2}>Xonadonli bo’lishingiz mumkin</p>
-          <p className={styles.footerLast}>
-            22-avgust, soat 20:00 da Telegram kanalda jonli efir, qolib ketmang
-          </p>
 
           <button
             onClick={() => {
@@ -109,6 +106,10 @@ export default function Home() {
           >
             BEPUL qatnashish
           </button>
+
+          <p className={styles.footerLast}>
+            22-avgust, soat 20:00 da Telegram kanalda jonli efir, qolib ketmang
+          </p>
 
           <div className={styles.timer}>
             <div

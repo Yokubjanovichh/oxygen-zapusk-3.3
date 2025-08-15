@@ -87,7 +87,7 @@ html {
   animation: gradientWipe 1.5s infinite ease, pulse 1.5s infinite;
   background-size: 150% auto;
   background-position: left center;
-  margin-bottom: 2.4rem;
+  margin-top: 2.4rem;
 }
 
 @keyframes gradientWipe {
