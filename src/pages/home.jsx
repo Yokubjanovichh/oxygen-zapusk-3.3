@@ -102,9 +102,9 @@ export default function Home() {
             onClick={() => {
               setIsModalOpen(true);
             }}
-            className={styles.navbarButton}
+            className={`${styles.navbarButton} ${styles.neon_pulse}`}
           >
-            BEPUL qatnashish
+            <span>BEPUL qatnashish</span>
           </button>
 
           <p className={styles.footerLast}>
